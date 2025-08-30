@@ -1,1 +1,101 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.site-header h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+.site-header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3b5998;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.site-header nav a:hover {
+    background-color: #1c3d7d;
+}
+
+.content-container {
+    max-width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.vocabulary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.vocabulary-table th,
+.vocabulary-table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.course-list article {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #3b5998;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #1c3d7d;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3b5998;
+    color: white;
+}
